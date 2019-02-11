@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+h1{
+	text-align:center;
+	color:darkgreen;
+	text-transform: uppercase;
+	text-shadow: 1px 3px 5px gray; 
+	margin-bottom:2%;
+}
+
+table{
+	width:50%;
+	margin: 0 auto;
+}
+table, td, tr{
+	border:2px solid darkgreen;
+	border-collapse: collapse;
+	padding :3px 3px;
+	text-align:center;
+}
+
+tr:nth-child(2n) {
+  background-color: #efefef;
+}
+
+img{
+	border-radius:50%;
+	width:100px;
+	height:100px;
+}
